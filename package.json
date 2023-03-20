@@ -1,0 +1,38 @@
+{
+  "name": "rails-app",
+  "version": "1.0.0",
+  "description": "This is a repository to help animals. You can change, find, locate the animal ",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yceman/rails-app.git"
+  },
+  "keywords": [
+    "Ruby",
+    "RubyMine",
+    "CSS",
+    "Gulp",
+    "Python",
+    "HTML",
+    "JS",
+    "Find",
+    "Explorer",
+    "Locate"
+  ],
+  "author": "Marcos Morais",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/yceman/rails-app/issues"
+  },
+  "homepage": "https://github.com/yceman/rails-app#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}
