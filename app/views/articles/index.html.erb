@@ -2,10 +2,9 @@
 <ul>
   <% @articles.each do |article| %>
     <li>
-      <a href="/articles/<%= article.id %>">
-        <%= article.title %>
-      </a>
+      <%= link_to article.title, article %>
     </li>
   <% end %>
 </ul>
-<p>Find me in app/views/articles/index.html.erb</p>
+<%= link_to "New Article", new_article_path %>
+<button class="btn btn-primary">Todos os artigos</button>
